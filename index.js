@@ -2,6 +2,8 @@ const utils = require('./utils.js');
 const inquirer = require('inquirer');
 const openpgp = require('openpgp');
 
+// Test comment
+
 async function init() {
     inquirer.prompt(utils.menu).then(async function(ans) {
         try {
